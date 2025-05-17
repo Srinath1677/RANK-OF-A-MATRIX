@@ -22,13 +22,14 @@ RegisterNumber: 212224230274
 
 ```python
 import numpy as np
-A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-result=np.linalg.matrix_rank(A)
-print(result)
+a=np.array([[1,2,3],[3,6,9]])
+solution=np.linalg.matrix_rank(a)
+print(solution)
 ```
 ## Output:
 
-![434386737-e0975679-d41b-4d7d-a364-186c13c79bc6](https://github.com/user-attachments/assets/be80b227-fe81-4b94-aaab-c080fb001060)
+![image](https://github.com/user-attachments/assets/4b7b386b-d3f9-441d-96e5-d10878b4c3b1)
+
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
